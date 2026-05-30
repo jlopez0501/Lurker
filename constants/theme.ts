@@ -1,29 +1,35 @@
-/**
- * Below are the colors that are used in the app. The colors are defined in the light and dark mode.
- * There are many other ways to style your app. For example, [Nativewind](https://www.nativewind.dev/), [Tamagui](https://tamagui.dev/), [unistyles](https://reactnativeunistyles.vercel.app), etc.
- */
-
 import { Platform } from 'react-native';
 
-const tintColorLight = '#0a7ea4';
-const tintColorDark = '#fff';
+export const Reddit = {
+  orange: '#FF4500',
+  blue: '#0079D3',
+  bg: '#0D1117',
+  surface: '#1A1A1B',
+  card: '#272729',
+  border: '#343536',
+  textPrimary: '#D7DADC',
+  textSecondary: '#818384',
+  textMuted: '#4A4A4B',
+  upvote: '#FF4500',
+  downvote: '#7193FF',
+};
 
 export const Colors = {
   light: {
-    text: '#11181C',
-    background: '#fff',
-    tint: tintColorLight,
-    icon: '#687076',
-    tabIconDefault: '#687076',
-    tabIconSelected: tintColorLight,
+    text: '#1C1C1C',
+    background: '#DAE0E6',
+    tint: Reddit.orange,
+    icon: '#878A8C',
+    tabIconDefault: '#878A8C',
+    tabIconSelected: Reddit.orange,
   },
   dark: {
-    text: '#ECEDEE',
-    background: '#151718',
-    tint: tintColorDark,
-    icon: '#9BA1A6',
-    tabIconDefault: '#9BA1A6',
-    tabIconSelected: tintColorDark,
+    text: Reddit.textPrimary,
+    background: Reddit.bg,
+    tint: Reddit.orange,
+    icon: Reddit.textSecondary,
+    tabIconDefault: Reddit.textSecondary,
+    tabIconSelected: Reddit.orange,
   },
 };
 
