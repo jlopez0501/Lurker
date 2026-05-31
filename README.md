@@ -1,50 +1,17 @@
-# Welcome to your Expo app 👋
+RedditScroller is a clean, media-focused Reddit browser for Android. Browse any subreddit, scroll through images and videos, and save your favourites for later.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+What's included:
 
-## Get started
+- Search any subreddit by name with autocomplete for recently visited ones
+- Sort by Hot, New, Top, or Rising
+- Inline image and video playback
+- Save posts to a local Saved tab
+- Download images directly to your gallery
+- Optional NSFW toggle
 
-1. Install dependencies
+Install:
 
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Download the APK below
+On your Android device, go to Settings → Install unknown apps and allow it for your browser or file manager
+Open the downloaded APK and tap Install
+Feel free to tweak the app name, add anything I missed, or tell me if you want a different angle on it.
